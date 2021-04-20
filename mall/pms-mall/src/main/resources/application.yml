@@ -1,0 +1,17 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: pms-mall
+  resources:
+    static-locations: classpath:/static/,classpath:/resources/
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://192.168.177.128:3306/gulimall_pms?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC&allowMultiQueries=true&nullCatalogMeansCurrent=true&rewriteBatchedStatements=true
+    username: root
+    password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848

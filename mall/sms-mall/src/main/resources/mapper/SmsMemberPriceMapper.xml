@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jia.smsmall.mapper.SmsMemberPriceMapper">
+
+    <resultMap type="com.jia.smsmall.model.SmsMemberPrice" id="SmsMemberPriceMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="skuId" column="sku_id" jdbcType="INTEGER"/>
+        <result property="memberLevelId" column="member_level_id" jdbcType="INTEGER"/>
+        <result property="memberLevelName" column="member_level_name" jdbcType="VARCHAR"/>
+        <result property="memberPrice" column="member_price" jdbcType="NUMERIC"/>
+        <result property="addOther" column="add_other" jdbcType="BYTE"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+           id,
+           sku_id,
+           member_level_id,
+           member_level_name,
+           member_price,
+           add_other,
+        </sql>
+
+</mapper>

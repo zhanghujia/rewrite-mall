@@ -1,0 +1,26 @@
+{
+  "name" : "PmsSpuInfoDesc",
+  "preName" : null,
+  "comment" : "spu信息介绍",
+  "templateGroupName" : null,
+  "fullColumn" : [ {
+    "name" : "spuId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "decript",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.jia.pmsmall",
+  "savePath" : "./pms-mall/src/main/java/com/jia/pmsmall",
+  "saveModelName" : "pms-mall"
+}

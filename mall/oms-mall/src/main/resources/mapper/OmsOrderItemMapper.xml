@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jia.omsmall.mapper.OmsOrderItemMapper">
+
+    <resultMap type="com.jia.omsmall.model.OmsOrderItem" id="OmsOrderItemMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="orderId" column="order_id" jdbcType="INTEGER"/>
+        <result property="orderSn" column="order_sn" jdbcType="VARCHAR"/>
+        <result property="spuId" column="spu_id" jdbcType="INTEGER"/>
+        <result property="spuName" column="spu_name" jdbcType="VARCHAR"/>
+        <result property="spuPic" column="spu_pic" jdbcType="VARCHAR"/>
+        <result property="spuBrand" column="spu_brand" jdbcType="VARCHAR"/>
+        <result property="categoryId" column="category_id" jdbcType="INTEGER"/>
+        <result property="skuId" column="sku_id" jdbcType="INTEGER"/>
+        <result property="skuName" column="sku_name" jdbcType="VARCHAR"/>
+        <result property="skuPic" column="sku_pic" jdbcType="VARCHAR"/>
+        <result property="skuPrice" column="sku_price" jdbcType="NUMERIC"/>
+        <result property="skuQuantity" column="sku_quantity" jdbcType="INTEGER"/>
+        <result property="skuAttrsVals" column="sku_attrs_vals" jdbcType="VARCHAR"/>
+        <result property="promotionAmount" column="promotion_amount" jdbcType="NUMERIC"/>
+        <result property="couponAmount" column="coupon_amount" jdbcType="NUMERIC"/>
+        <result property="integrationAmount" column="integration_amount" jdbcType="NUMERIC"/>
+        <result property="realAmount" column="real_amount" jdbcType="NUMERIC"/>
+        <result property="giftIntegration" column="gift_integration" jdbcType="INTEGER"/>
+        <result property="giftGrowth" column="gift_growth" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+           id,
+           order_id,
+           order_sn,
+           spu_id,
+           spu_name,
+           spu_pic,
+           spu_brand,
+           category_id,
+           sku_id,
+           sku_name,
+           sku_pic,
+           sku_price,
+           sku_quantity,
+           sku_attrs_vals,
+           promotion_amount,
+           coupon_amount,
+           integration_amount,
+           real_amount,
+           gift_integration,
+           gift_growth,
+        </sql>
+
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jia.smsmall.mapper.SmsSkuBoundsMapper">
+
+    <resultMap type="com.jia.smsmall.model.SmsSkuBounds" id="SmsSkuBoundsMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="skuId" column="sku_id" jdbcType="INTEGER"/>
+        <result property="growBounds" column="grow_bounds" jdbcType="NUMERIC"/>
+        <result property="buyBounds" column="buy_bounds" jdbcType="NUMERIC"/>
+        <result property="work" column="work" jdbcType="BYTE"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+           id,
+           sku_id,
+           grow_bounds,
+           buy_bounds,
+           work,
+        </sql>
+
+</mapper>
