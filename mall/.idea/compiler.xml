@@ -17,14 +17,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mall" target="11" />
-      <module name="mall-common" target="11" />
-      <module name="mall-gateway" target="11" />
-      <module name="oms-mall" target="11" />
-      <module name="pms-mall" target="11" />
-      <module name="sms-mall" target="11" />
-      <module name="ums-mall" target="11" />
-      <module name="wms-mall" target="11" />
+      <module name="mall" target="8" />
+      <module name="mall-common" target="8" />
+      <module name="mall-gateway" target="8" />
+      <module name="oms-mall" target="8" />
+      <module name="pms-mall" target="8" />
+      <module name="sms-mall" target="8" />
+      <module name="ums-mall" target="8" />
+      <module name="wms-mall" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

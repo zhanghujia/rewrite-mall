@@ -5,31 +5,37 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.177.128:3306/gulimall_oms</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.177.129:3306/gulimall_oms</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="gulimall_pms@阿里云数据库" uuid="5e6727e7-a759-42de-8494-885232e787df">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.177.128:3306/gulimall_pms</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.177.129:3306/gulimall_pms</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="gulimall_sms@阿里云数据库" uuid="da1bc7bf-ae07-4d98-afdf-fa8931802ac3">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.177.128:3306/gulimall_sms</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.177.129:3306/gulimall_sms</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="gulimall_ums@阿里云数据库" uuid="bfab2cfa-cddc-491c-95c8-6066744a8d4e">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.177.128:3306/gulimall_ums</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.177.129:3306/gulimall_ums</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="gulimall_wms@阿里云数据库" uuid="ace8242d-bb3f-4380-a41f-f7fe47dedaea">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.177.128:3306/gulimall_wms</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.177.129:3306/gulimall_wms</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="gulimall_oms@阿里云数据库 [2]" uuid="a37f4664-b58c-4bf4-877d-063348310bc0">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.177.129:3306/gulimall_oms</jdbc-url>
     </data-source>
   </component>
 </project>
